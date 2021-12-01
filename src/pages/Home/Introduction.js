@@ -5,8 +5,8 @@ const Introduction = () => {
     return (
         <div>
             
-            <div className="d-flex">
-                <div className="col-md-7">
+            <div className="d-flex py-5">
+                <div className="col-md-7 pt-5">
                     <h3>Hello , I'm</h3>
                     <h1>Ayubur Rahman</h1>
                     <h6>*Web Developer

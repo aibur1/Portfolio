@@ -8,7 +8,8 @@ const projects = [
     {
         "name": "Little Learners Academy",
         "description": "Learn About Our Curriculum's Proven Results, Unique Senior Year, Clubs, Sports, & More! A Globally Benchmarked Academic Program Featuring Liberal Arts & Advanced STEM Offerings. Global-Readiness. Advanced STEM Offerings. Content-Rich Curriculum. Expert Teachers. Senior Project Program. Engaging Extracurriculars. College Preparation. 1474 Average SAT Score.",
-        "image": "https://i.ibb.co/DQTqHvg/1-1.png"
+        "image": "https://i.ibb.co/DQTqHvg/1-1.png",
+        "live":"https://aibur-react-router.netlify.app/home"
     },
     {
         "name": "AR Car Sells",

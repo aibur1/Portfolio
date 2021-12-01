@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Nav, Navbar  } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
+import nab from './Navigation.css';
 
 
 const Navigation = () => {
@@ -8,12 +9,12 @@ const Navigation = () => {
         <>
             <Navbar bg="dark" variant="white">
                 <Container>
-                    <Nav className="">
-                        <NavLink to="/home">Home</NavLink>
-                        <NavLink to="/about">About</NavLink>
-                        <NavLink to="/blogs">Blogs</NavLink>
-                        <NavLink to="/contact">Contact</NavLink>
-                        <button><a href="https://drive.google.com/file/d/1ZJj7ihaDpDy913tJ5nncYgQ1IrnHtGKK/view">Resume</a></button>
+                    <Nav >
+                        <NavLink className="nab" to="/home">Home</NavLink>
+                        <NavLink className="nab" to="/about">About</NavLink>
+                        <NavLink className="nab" to="/blogs">Blogs</NavLink>
+                        <NavLink className="nab" to="/contact">Contact</NavLink>
+                        <button className="nab"><a href="https://drive.google.com/file/d/1ZJj7ihaDpDy913tJ5nncYgQ1IrnHtGKK/view" target="_blank">Resume</a></button>
                       
                     </Nav>
                 </Container>
