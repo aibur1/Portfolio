@@ -14,7 +14,7 @@ const Navigation = () => {
                         <NavLink className="nab" to="/about">About</NavLink>
                         <NavLink className="nab" to="/blogs">Blogs</NavLink>
                         <NavLink className="nab" to="/contact">Contact</NavLink>
-                        <button className="nab"><a href="https://drive.google.com/file/d/1ZJj7ihaDpDy913tJ5nncYgQ1IrnHtGKK/view" target="_blank">Resume</a></button>
+                        <button className="nab site_btn "><a  href="https://drive.google.com/file/d/1ZJj7ihaDpDy913tJ5nncYgQ1IrnHtGKK/view" target="_blank">Resume</a></button>
                       
                     </Nav>
                 </Container>
