@@ -2,6 +2,7 @@ import React from 'react';
 import image from '../../../src/img/download.png';
 import Particles from "react-tsparticles";
 import introducton from './Introduction.css';
+import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
 
 const Introduction = () => {
     const particlesInit = (main) => {
@@ -100,8 +101,21 @@ const Introduction = () => {
                     data-aos-duration="2000" >
                     <h3>Hello , I'm</h3>
                     <h1>Ayubur Rahman</h1>
-                    <h6>Web Developer ||
-                        Programmer</h6>
+                    <h4>
+                    <span style={{ color: 'blue', fontWeight: 'bold' }}>
+          {/* Style will be inherited from the parent element */}
+          <Typewriter
+            words={['Web Developer || Programmer']}
+            loop={5}
+            cursor
+            cursorStyle='_'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+           
+          />
+        </span>
+                    </h4>
                     <p className="text">A self-motivated and enthusiastic web developer with a deep interest in JavaScript.<br /> To work in the Software industry with modern web technologies of different local & multinational <br /> Software/ IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</p>
                 </div>
                 

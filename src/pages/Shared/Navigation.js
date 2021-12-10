@@ -7,7 +7,7 @@ import nab from './Navigation.css';
 const Navigation = () => {
     return (
         <>
-            <Navbar bg="dark" variant="white">
+            <Navbar className="name" variant="dark">
                 <Container>
                     <Nav >
                         <NavLink className="nab" to="/home">Home</NavLink>

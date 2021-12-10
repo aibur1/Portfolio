@@ -1,5 +1,5 @@
 .nab{
-    color:white;
+    color:black;
     margin-right: 20px;
     text-decoration: none;
 }
@@ -7,4 +7,8 @@
 .site_btn{
    background-color:lightblue;
    border-radius: 3px;
+}
+.name{
+    background-color:rgb(76, 198, 238);
+  
 }

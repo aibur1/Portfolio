@@ -1,15 +1,23 @@
 import React from 'react';
 import { ProgressBar } from 'react-bootstrap';
+import info from './Info.css';
 
 const Info = () => {
     return (
-        <div>
-            <div className="text-center container py-5">
+        <div data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+            <div className=" progress_bar">
                
-                <ProgressBar striped variant="success" now={40} />
-                <ProgressBar striped variant="info" now={20} />
-                <ProgressBar striped variant="warning" now={60} />
-                <ProgressBar striped variant="danger" now={80} />
+                <ul>
+                    <li className="html">HTML</li>
+                    <li className="css">CSS</li>
+                    <li className="js">JavaScript</li>
+                    <li className="react">React</li>
+                    <li className="node">Nodejs</li>
+                    <li className="express">Express</li>
+                    <li className="mongo">MongoDB</li>
+                </ul>
               
             </div>
         </div>

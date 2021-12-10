@@ -2,17 +2,19 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import skill from './Skill.css';
 
-const Skill = ({skill}) => {
-    const {image, name} = skill;
+const Skill = ({ skill }) => {
+    const { image, name } = skill;
     return (
-        <div className="container card">
-             <Col>
-                <Card className=" border-0 w-50">
-                    <Card.Img variant="top" src={image} />
-                    <Card.Body>
+        <div data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500" className="container">
+            <Col>
+                <Card className=" border-0 card w-50">
+                    <Card.Img variant="top" className="mx-4 mt-3" style={{ width: '50%', textAlign: 'center' }} src={image} />
+                    <Card.Body data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                         <Card.Title> {name}</Card.Title>
-                        
-                       
                     </Card.Body>
                 </Card>
             </Col>
