@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../../Shared/Footer';
 import Introduction from '../Introduction';
 import Projects from '../Projects';
+import home from './Home.css';
 
 
 const Home = () => {
@@ -9,7 +10,7 @@ const Home = () => {
         <div className="bg-info">
           <Introduction></Introduction>
          <Projects></Projects>
-         <Footer></Footer>
+         
         </div>
     );
 };

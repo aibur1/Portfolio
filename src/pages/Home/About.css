@@ -2,4 +2,5 @@
     /* background-color:lightskyblue; */
   background-color: rgb(31, 30, 30);
     color: white;
+    overflow-x: hidden;
 }

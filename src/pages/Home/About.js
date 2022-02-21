@@ -12,7 +12,7 @@ const About = () => {
             <Skills></Skills>
             <Info></Info>
             <MyServices></MyServices>
-            <Footer></Footer>
+           
         </div>
     );
 };

@@ -20,12 +20,10 @@ const Project = ({project}) => {
                             <button className="btn btn-primary">Book Now</button>
                         </Link> */}
                       
-                       <button className="mx-3"><a href={live} target="_blank">live</a></button>
-                       <button className="mx-3"><a href={client} target="_blank">Client Site</a></button>
-                       <button className="mx-3"><a href={server} target="_blank">Server Site</a></button>
+                       <button className='button'><a href={live} target="_blank" className='text'>live site</a></button>
+                       <button className="mx-3 button"><a href={client} target="_blank" className='text'>Github Client</a></button>
+                       <button className="mx-3 button"><a href={server} target="_blank" className='text'>Github Server</a></button>
                       
-
-                       <button >Details</button>
                     </Card.Body>
                 </Card>
             </Col>

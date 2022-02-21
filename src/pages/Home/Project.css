@@ -1,4 +1,16 @@
 .background{
-    background-color: lightcoral;
+    background-color: rgb(245, 233, 233);
     border-radius: 5px;
+}
+.button{
+    
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+    
+    
+}
+.text{
+    text-decoration: none;
+    
 }

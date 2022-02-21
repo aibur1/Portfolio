@@ -12,6 +12,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Footer from './pages/Shared/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Navigation></Navigation>
+      
         <Switch>
         <Route exact path="/">
           <Home></Home>
@@ -40,6 +42,7 @@ function App() {
           </Route> */}
         </Switch>
       </BrowserRouter>
+      <Footer></Footer>
     </div>
   );
 }
