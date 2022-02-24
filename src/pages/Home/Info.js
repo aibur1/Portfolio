@@ -9,7 +9,7 @@ const Info = () => {
         data-aos-easing="ease-in-sine">
             <div className="container row">
                
-                <ul className='col-sm-12'>
+                <ul className='col-sm-12 '>
                     <li className="html">HTML</li>
                     <li className="css">CSS</li>
                     <li className="js">JavaScript</li>
