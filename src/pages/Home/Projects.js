@@ -55,7 +55,7 @@ const Projects = () => {
     return (
         <div className=''>
             <h3 className='heading py-5'>RECENT PROJECTS</h3>
-            <Row xs={1} md={3} className="g-4 ">
+            <Row xs={12} md={3} className="g-4 ">
                 {
                     projects.map(project => <Project
                         project={project}

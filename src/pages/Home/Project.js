@@ -1,14 +1,14 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import project from './Project.css';
+import'./Project.css';
 
 const Project = ({project}) => {
     const {name, description, image, live,client, server, techno} = project;
     console.log(project)
     return (
         <div>
-            <Col>
+            <Col >
                 <Card className="">
 
                     <Card.Img variant="top" src={image} />
@@ -20,9 +20,16 @@ const Project = ({project}) => {
                             <button className="btn btn-primary">Book Now</button>
                         </Link> */}
                       
-                       <button className='button'><a href={live} target="_blank" className='text'>live site</a></button>
-                       <button className="mx-3 button"><a href={client} target="_blank" className='text'>Github Client</a></button>
-                       <button className="mx-3 button"><a href={server} target="_blank" className='text'>Github Server</a></button>
+                       <div className="">
+                            <div className="row justify-content-evenly">
+                            <button className='button col-sm-12 col-lg-3 my-1'><a href={live} target="_blank" className='text'>live</a>
+                            </button>
+                            <button className="button col-sm-12 col-lg-3 my-1"><a href={client} target="_blank" className='text'>Client</a>
+                            </button>
+                            <button className="button col-sm-12  col-lg-3 my-1"><a href={server} target="_blank" className='text'>Server</a>
+                           </button> 
+                            </div>
+                       </div>
                       
                     </Card.Body>
                 </Card>
