@@ -117,7 +117,7 @@ const Introduction = () => {
                                 />
                             </span>
                         </h4>
-                        <p className="text">A self-motivated and enthusiastic web developer with a deep interest in JavaScript. To work in the Software industry with modern web technologies of different local & multinational Software/ IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</p>
+                        <p className="text">A self-motivated and enthusiastic web developer with a deep interest in JavaScript.Work in the Software industry with modern web technologies of different local & multinational Software/ IT agencies and grow rapidly with increasing responsibilities.</p>
                     </div>
 
                     <div className="col-md-6" data-aos="flip-left"
