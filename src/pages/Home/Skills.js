@@ -74,8 +74,8 @@ const Skills = () => {
     <div className="container">
       <h3 className="py-5 heading">My Skills</h3>
       <div className=" row">
-        <div className=" col-sm-12 col-md-7">
-          <Row  md={3} className=" g-4">
+        <div className=" col-sm-12 col-md-7 ">
+          <Row  md={3} className=" g-4 ">
             {
               skills.map(skill => <Skill
                 key={skill.id}
@@ -84,7 +84,7 @@ const Skills = () => {
             }
           </Row>
         </div>
-        <div data-aos="zoom-in-left" className="col-md-4">
+        <div data-aos="zoom-in-left" className="col-md-4 mt-5">
           <img className="img-fluid skill" src={img} alt="" />
         </div>
       </div>

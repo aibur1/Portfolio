@@ -7,10 +7,10 @@ const Skill = ({ skill }) => {
     return (
         <div data-aos="fade-down"
             data-aos-easing="linear"
-            data-aos-duration="1500" className="container">
-            <Col>
+            data-aos-duration="1500" className="container   ">
+            <Col className=''>
                 <Card className=" border-0 card w-50 ">
-                    <Card.Img variant="top" className="mx-auto mt-3" style={{ width: '50%', textAlign: 'center' }} src={image} />
+                    <Card.Img variant="top" className="mx-auto mt-3" style={{ width: '50%', textAlign: 'center' }} src={image}  />
                     <Card.Body data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="2000">
