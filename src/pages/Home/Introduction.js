@@ -1,7 +1,8 @@
 import React from 'react';
 import image from '../../../src/img/download.png';
 import Particles from "react-tsparticles";
-import { Typewriter } from 'react-simple-typewriter'
+import introducton from './Introduction.css';
+import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
 
 const Introduction = () => {
     const particlesInit = (main) => {
