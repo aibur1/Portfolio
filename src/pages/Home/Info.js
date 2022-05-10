@@ -1,5 +1,4 @@
 import React from 'react';
-import { ProgressBar } from 'react-bootstrap';
 import info from './Info.css';
 
 const Info = () => {

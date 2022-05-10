@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Nav, Navbar  } from 'react-bootstrap';
-import { Link, NavLink } from 'react-router-dom';
 import './Navigation.css';
 
 
@@ -17,7 +16,7 @@ const Navigation = () => {
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/blogs">Blogs</Nav.Link>
             <Nav.Link className='' href="/contact">Contact</Nav.Link>
-            <Nav.Link  href="/resume"><a  href="https://drive.google.com/file/d/12jX3CtzBXoMqIFDS-L0uj25z5w1VrR-T/view?usp=sharing" target="_blank" className='nab'>Resume</a></Nav.Link>
+            <Nav.Link  href="/resume"><a  href="https://drive.google.com/file/d/12jX3CtzBXoMqIFDS-L0uj25z5w1VrR-T/view?usp=sharing" target="_blank"   rel="" className='nab'>Resume</a></Nav.Link>
             
           </Nav>
          

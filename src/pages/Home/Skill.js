@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
-import skill from './Skill.css';
+
 
 const Skill = ({ skill }) => {
     const { image, name } = skill;

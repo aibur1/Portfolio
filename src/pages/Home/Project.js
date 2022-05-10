@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import'./Project.css';
 
 const Project = ({project}) => {
@@ -22,7 +21,7 @@ const Project = ({project}) => {
                       
                        <div className="">
                             <div className="row justify-content-evenly">
-                            <button className='button col-sm-12 col-lg-3 my-1'><a href={live} target="_blank" className='text'>live</a>
+                            <button className='button col-sm-12 col-lg-3 my-1'><a href={live} target="_blank" rel='' className='text'>live</a>
                             </button>
                             <button className="button col-sm-12 col-lg-3 my-1"><a href={client} target="_blank" className='text'>Client</a>
                             </button>

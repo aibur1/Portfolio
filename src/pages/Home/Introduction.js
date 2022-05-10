@@ -1,8 +1,7 @@
 import React from 'react';
 import image from '../../../src/img/download.png';
 import Particles from "react-tsparticles";
-import introducton from './Introduction.css';
-import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
+import { Typewriter } from 'react-simple-typewriter'
 
 const Introduction = () => {
     const particlesInit = (main) => {
@@ -106,7 +105,7 @@ const Introduction = () => {
                             <span style={{ color: 'blue', fontWeight: 'bold' }}>
                                 {/* Style will be inherited from the parent element */}
                                 <Typewriter
-                                    words={['Web Developer || Programmer']}
+                                    words={['Web Developer || Programmar']}
                                     loop={5}
                                     cursor
                                     cursorStyle='_'
@@ -117,7 +116,7 @@ const Introduction = () => {
                                 />
                             </span>
                         </h4>
-                        <p className="text">A self-motivated and enthusiastic web developer with a deep interest in JavaScript.Work in the Software industry with modern web technologies of different local & multinational Software/ IT agencies and grow rapidly with increasing responsibilities.</p>
+                        <p className="text">A self-motivated and enthusiastic web developer with a deep interest in JavaScript.Work with modern web technologies of different local & multinational Software/ IT agencies and grow rapidly with increasing responsibilities.</p>
                     </div>
 
                     <div className="col-md-6" data-aos="flip-left"

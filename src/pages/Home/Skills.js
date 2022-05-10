@@ -2,7 +2,7 @@ import React from 'react';
 import { Row } from 'react-bootstrap';
 import Skill from './Skill';
 import img from '../../img/skill images/single.png';
-import skill from './Skills.css';
+
 
 
 const skills = [
@@ -85,7 +85,7 @@ const Skills = () => {
           </Row>
         </div>
         <div data-aos="zoom-in-left" className="col-md-4">
-          <img className="img-fluid skill" src={img}/>
+          <img className="img-fluid skill" src={img} alt="" />
         </div>
       </div>
     </div>
